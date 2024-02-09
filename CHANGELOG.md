@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.1.3](https://github.com/wikimedia/karma-firefox-launcher/compare/v2.1.2...v2.1.3) (2024-02-09)
+
+### Fixes
+
+* Switch macOS from `firefox-bin` to `firefox`, [pull #330](https://github.com/karma-runner/karma-firefox-launcher/pull/330), fixes [#328](https://github.com/karma-runner/karma-firefox-launcher/issues/328) (Timo Tijhof).
+
+
 ## [2.1.2](https://github.com/karma-runner/karma-firefox-launcher/compare/v2.1.1...v2.1.2) (2021-11-02)
 
 
@@ -12,14 +23,14 @@
 
 * update name of Developer Edition on macOS ([a0b5e58](https://github.com/karma-runner/karma-firefox-launcher/commit/a0b5e5858a2503c54a429904b133849f90514d6d))
 
-# [2.1.0](https://github.com/karma-runner/karma-firefox-launcher/compare/v2.0.0...v2.1.0) (2020-11-03)
+## [2.1.0](https://github.com/karma-runner/karma-firefox-launcher/compare/v2.0.0...v2.1.0) (2020-11-03)
 
 
 ### Features
 
 * provide a way to configure location of executable in customLauncher (fix [#125](https://github.com/karma-runner/karma-firefox-launcher/issues/125)) ([c53efcc](https://github.com/karma-runner/karma-firefox-launcher/commit/c53efcc5f0abf72c0213f826d2b147d01241a39c))
 
-# [2.0.0](https://github.com/karma-runner/karma-firefox-launcher/compare/v1.3.0...v2.0.0) (2020-10-20)
+## [2.0.0](https://github.com/karma-runner/karma-firefox-launcher/compare/v1.3.0...v2.0.0) (2020-10-20)
 
 
 ### Bug Fixes
@@ -36,12 +47,8 @@
 ### BREAKING CHANGES
 
 * Changed minimum required version of node.js from 8 to 10.
+  Node 8 EOL was 2019-12-31.
 
-Node 8 EOL was 2019-12-31.
-
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ## [1.3.0](https://github.com/karma-runner/karma-firefox-launcher/compare/v1.2.0...v1.3.0) (2020-01-08)
 
